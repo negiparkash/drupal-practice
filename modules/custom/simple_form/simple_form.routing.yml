@@ -1,0 +1,7 @@
+simple_form:
+  path: '/add-node'
+  defaults:
+    _title: 'node form'
+    _form: '\Drupal\simple_form\Form\SimpleForm'
+  requirements:
+     _permission: 'access content'
