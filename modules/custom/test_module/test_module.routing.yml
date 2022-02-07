@@ -1,0 +1,7 @@
+test_module:
+  path: '/custom-ext'
+  defaults:
+    _controller: '\Drupal\test_module\Controller\ExtController::test'
+    _title: 'test Filter'
+  requirements:
+     _permission: 'access content'

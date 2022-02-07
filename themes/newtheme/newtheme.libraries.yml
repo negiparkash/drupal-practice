@@ -1,0 +1,27 @@
+global-css-and-js:
+  css:
+    theme:
+      # css/style.css: {}
+      # css/bootstrap.css: {}
+      css/bootstrap.min.css: {}
+      css/bootstrap-icons.css: {}
+      css/boxicons.min.css: {}
+      css/glightbox.min.css: {}
+      css/swiper-bundle.min.css: {}      
+  js: 
+    js/main.js: {}
+    js/bootstrap.bundle.min.js: {}
+    js/glightbox.min.js: {}
+    js/isotope.pkgd.min.js: {}
+    js/swiper-bundle.min.js: {}
+
+     
+       
+# fonts:
+#   css:
+#     theme:
+#        fonts/Lineicons.eot: {}
+#        fonts/Lineicons.svg: {}
+#        fonts/Lineicons.ttf: {}
+#        fonts/Lineicons.Woff: {}
+#        fonts/Lineicons.Woff2: {} 

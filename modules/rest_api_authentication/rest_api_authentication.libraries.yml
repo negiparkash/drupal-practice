@@ -1,0 +1,5 @@
+rest_api_authentication.style_settings:
+  version: VERSION
+  css:
+    layout:
+      css/rest_api_authentication.style_settings.css: {}

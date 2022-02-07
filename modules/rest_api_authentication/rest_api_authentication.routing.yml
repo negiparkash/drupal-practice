@@ -1,0 +1,7 @@
+rest_api_authentication.auth_settings:
+  path: /admin/config/people/rest_api_authentication/auth_settings
+  defaults:
+    _title: 'Drupal REST API Configuration'
+    _form: \Drupal\rest_api_authentication\Form\miniorangeAPIAuth
+  requirements:
+    _permission: 'administer site configuration'

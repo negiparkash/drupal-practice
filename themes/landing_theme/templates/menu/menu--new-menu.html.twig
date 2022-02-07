@@ -1,0 +1,17 @@
+
+<ul id="nav" class="navbar-nav ms-auto">
+ {% for item in items %}
+        <li class="nav-item">
+            <a href="{{item.url}}" class="page-scroll active"
+                aria-label="Toggle navigation">{{item.title}}</a>
+        </li>
+    {% endfor %}
+</ul>
+
+
+{# <li{{ item.attributes }}>
+        {{ link(item.title, item.url) }}
+        {% if item.below %}
+          {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
+        {% endif %}
+      </li> #}

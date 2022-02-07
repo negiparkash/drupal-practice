@@ -1,0 +1,14 @@
+<?php 
+function db_query_theme($existing,$theme,$type,$path)
+{
+    return [
+        'information2' =>array(
+            'variables' =>array(
+                'items2' => [],
+                'title' =>'',
+            )
+        )
+        ];
+} 
+
+?>

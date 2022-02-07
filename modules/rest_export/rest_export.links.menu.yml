@@ -1,0 +1,10 @@
+rest_export.settings:
+  title: 'REST Export'
+  route_name: rest_export.settings
+  parent: system.admin_config_services
+  weight: 10
+
+rest_export.export:
+  title: 'Export REST Data'
+  route_name: rest_export.export
+  parent: rest_export.settings

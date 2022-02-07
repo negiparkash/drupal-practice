@@ -1,0 +1,17 @@
+# User_Detail  module
+db_query.Detail:
+  path: '/product-data/{nid}'
+  defaults:
+    _title: 'Userdetail'
+    _controller: '\Drupal\db_query\Select\SelectController::data'
+    nid: ''
+  requirements:
+     _permission: 'access content' 
+
+db_query.Delete:
+  path: '/delete-record/{nid}'
+  defaults:
+    _title: 'Userdelete'
+    _controller: '\Drupal\db_query\Select\DeleteController::delete'
+  requirements:
+     _permission: 'access content'             

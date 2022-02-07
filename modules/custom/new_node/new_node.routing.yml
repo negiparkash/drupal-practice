@@ -1,0 +1,11 @@
+new_node.node:
+  path: '/node-created'
+  defaults: 
+    _title: 'new_node'
+    _controller: '\Drupal\new_node\Controller\NodeController::content'
+  requirements: 
+    _permission: 'access content'
+    
+
+
+

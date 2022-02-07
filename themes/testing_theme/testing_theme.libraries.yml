@@ -1,0 +1,26 @@
+global-css-and-js:
+  css:
+    theme:
+      css/main.css: {}
+      css/extra.css: {}
+      css/animate.css: {}
+      css/bootstrap.min.css: {}
+      css/glightbox.min.css: {}
+      css/LineIcons.css: {}
+      css/tiny-slider.css: {}
+  js: 
+       js/bootstrap.min.js: {}
+       js/count-up.min.js: {}
+       js/glightbox.min.js: {}
+       js/main.js: {}
+       js/tiny-slider.js: {}   
+       js/wow.min.js: {}   
+       
+fonts:
+  css:
+    theme:
+       fonts/Lineicons.eot: {}
+       fonts/Lineicons.svg: {}
+       fonts/Lineicons.ttf: {}
+       fonts/Lineicons.Woff: {}
+       fonts/Lineicons.Woff2: {} 

@@ -1,0 +1,4 @@
+name: Name Rearranging
+description: Custom filter to raarange name.
+type: module
+core_version_requirement: ^8 || ^9

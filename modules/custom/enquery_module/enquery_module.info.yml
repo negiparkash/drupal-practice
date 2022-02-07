@@ -1,0 +1,4 @@
+name: enquery form
+desccription: Enquery Module
+type: module
+core_version_requirement: ^8 || ^9

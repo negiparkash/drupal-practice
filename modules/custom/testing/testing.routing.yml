@@ -1,0 +1,7 @@
+testing.testing:
+ path: '/check-page'
+ defaults:
+    _title: 'welcome'
+    _controller: 'Drupal\testing\Controller\TestingController::testing'
+  requirements:
+    _permission: 'access content'

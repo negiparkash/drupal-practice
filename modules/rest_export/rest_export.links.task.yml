@@ -1,0 +1,9 @@
+rest_export.settings:
+  title: 'Settings'
+  route_name: rest_export.settings
+  base_route: rest_export.settings
+
+rest_export.export:
+  title: 'Export Data'
+  route_name: rest_export.export
+  base_route: rest_export.settings

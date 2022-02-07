@@ -1,0 +1,31 @@
+name: landing_theme
+type: theme
+description: 'Basic structure for landing page.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: false
+
+
+libraries:
+  - landing_theme/global-css-and-js
+  - landing_theme/fonts 
+
+regions:
+  header: 'Header'
+  menu: 'Menu'
+  banner_text: 'Banner-text'
+  banner: 'Banner'
+  highlight_one: Heighlight one
+  highlight_two: Heighlight two
+  highlight_three: Heighlight three
+  content: 'Content'
+  services: 'services' 
+  package: package
+  block: Block
+  footer_column_1: 'Footer Column 1'
+  footer_column_2: 'Footer Column 2'
+  footer_column_3: 'Footer Column 3'
+  footer_column_4: 'Footer Column 4'
+  footer_column_5: 'Footer Column 5'
+    
+  

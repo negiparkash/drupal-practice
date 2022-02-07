@@ -1,0 +1,11 @@
+
+# Enquery  module
+enquery_module.RegisterUser:
+  path: '/user-enquery'
+  defaults:
+    _title: 'enquery form'
+    _form: '\Drupal\enquery_module\Form\Enquery_user'
+  requirements:
+    _permission: 'access content'    
+
+

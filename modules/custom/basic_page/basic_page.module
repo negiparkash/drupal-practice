@@ -1,0 +1,24 @@
+<?php
+// // hook_form_alter
+
+// function basic_page_form_alter(&$form,\Drupal\Core\Form\FormInterface $form_state,$form_id){
+//     if($form_id == 'comment_comment_form'){
+//     $form['actions']['submit']['#value'] = t('feedback'); 
+//     }   
+// }
+
+
+
+function basic_page_theme($existing,$theme,$type,$path)
+{
+     return array(
+         'information' =>array(
+             'variables'=>array(
+                 'items'=>[],
+                 'title'=>''
+             )
+         )
+    );
+}
+
+?>

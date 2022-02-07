@@ -1,0 +1,19 @@
+{
+    "name": "drupal/rest_export",
+    "description": "Provides features to export restful api via spreadsheet.",
+    "type": "drupal-module",
+    "homepage": "https://drupal.org/project/rest_export",
+    "authors": [
+        {
+            "name": "Shobhit Juyal (shobhit_juyal)",
+            "homepage": "https://www.drupal.org/u/shobhit_juyal",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {},
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.3"
+    }
+}

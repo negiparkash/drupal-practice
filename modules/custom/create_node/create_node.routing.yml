@@ -1,0 +1,18 @@
+create_node.node:
+  path: '/node-create'
+  defaults: 
+    _title: 'node_creation'
+    _controller: '\Drupal\create_node\Controller\NodeController::content'
+  requirements: 
+    _permission: 'access content'
+
+
+create_node.node_values:
+  path: '/node-value'
+  defaults: 
+    _title: 'node_value'
+    _controller: '\Drupal\create_node\Controller\NodeController::values'
+  requirements: 
+    _permission: 'access content'
+
+

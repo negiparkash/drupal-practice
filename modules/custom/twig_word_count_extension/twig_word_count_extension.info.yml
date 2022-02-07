@@ -1,0 +1,4 @@
+name: word count extension
+desccription: Module
+type: module
+core_version_requirement: ^8 || ^9

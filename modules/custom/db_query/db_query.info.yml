@@ -1,0 +1,5 @@
+name: sql query
+description: sql quries testing puspose  
+core_version_requirement: ^8 || ^9
+type: module
+package: Custom Modules 

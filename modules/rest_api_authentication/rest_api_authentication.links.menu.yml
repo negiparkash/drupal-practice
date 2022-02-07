@@ -1,0 +1,6 @@
+
+rest_api_authentication.auth_settings:
+  route_name: rest_api_authentication.auth_settings
+  title: 'Drupal REST API Configuration'
+  description: 'Drupal REST API Configuration'
+  parent: user.admin_index

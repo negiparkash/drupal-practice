@@ -1,0 +1,19 @@
+# Schema for the configuration files of the Permission Spreadsheet module.
+
+rest_export.settings:
+  type: config_object
+  label: 'Rest export settings'
+  mapping:
+    rest_export:
+      type: mapping
+      label: 'Rest Export'
+      mapping:
+        filename:
+          type: string
+          label: 'Filename'
+        sheet_title:
+          type: string
+          label: 'Sheet title'
+        status:
+          type: integer
+          label: 0

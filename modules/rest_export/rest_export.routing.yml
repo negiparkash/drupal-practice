@@ -1,0 +1,15 @@
+rest_export.settings:
+  path: '/admin/config/services/restexport'
+  defaults:
+    _form: '\Drupal\rest_export\Form\SettingsForm'
+    _title: 'Rest Export'
+  requirements:
+    _permission: 'administer rest resources'
+
+rest_export.export:
+  path: '/admin/config/services/restexport/data'
+  defaults:
+    _form: '\Drupal\rest_export\Form\ExportForm'
+    _title: 'Export Rest Data'
+  requirements:
+    _permission: 'administer rest spreadsheet'

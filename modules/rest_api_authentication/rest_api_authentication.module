@@ -1,0 +1,19 @@
+<?php
+use Drupal\Core\Form\FormStateInterface;
+/**
+ * @file
+ * Module file for miniOrange REST API Module.
+ */
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Drupal\Core\Access\AccessResult;
+use Drupal\Core\Session\AccountInterface;
+use Drupal\user\Entity\User;
+
+
+
+function rest_api_authentication_form_alter(&$form, FormStateInterface $form_state, $form_id){
+  if($form_id === 'rest_api_authentication_config_client'){
+    $form['api_auth']['rest_api_authentication_authentication_method_submit']   = [ '#disabled' => TRUE ];
+  }
+  return $form;
+}

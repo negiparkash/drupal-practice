@@ -1,0 +1,14 @@
+<?php
+
+function form_module_theme($existing,$theme,$type,$path)
+{
+   return [
+       'information' =>array(
+           'variables' =>array(
+             'items'=>[],
+             'title'=>''  
+           )
+       )
+       ];
+}
+?>    

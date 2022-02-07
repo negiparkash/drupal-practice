@@ -1,0 +1,24 @@
+basic_page.one:
+  path: '/testing-page'
+  defaults:
+    _title: 'welcome'
+    _controller: 'Drupal\basic_page\Controller\BasicPageController::basicpage'
+  requirements:
+    _permission: 'access content'
+
+
+basic_page.two:
+  path: '/information-page'
+  defaults:
+    _title: 'information'
+    _controller: 'Drupal\basic_page\Controller\BasicPageController::information'
+  requirements:
+    _permission: 'access content'    
+
+basic_page.addUser:
+  path: '/custom-form'
+  defaults:
+    _title: 'custom form'
+    _form: '\Drupal\basic-page\Form\FormController'
+  requirments:
+    _permission:  'access content admin'      

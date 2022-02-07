@@ -1,0 +1,5 @@
+name: new_node
+type: module
+description: This is for create custom-node
+core_version_requirement: ^8 || ^9
+package: Custom Modules

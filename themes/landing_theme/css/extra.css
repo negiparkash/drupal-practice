@@ -1,0 +1,114 @@
+.views-col
+{
+  margin:27px;
+  padding:56px;
+  background-color:white;
+  border-radius: 5px;
+  border:1px solid gray;
+  width: 27% !important;
+  margin-left: 51px;
+  /* box-shadow: 2px 2px 10px 2px grey; */
+ 
+}
+.views-col:hover
+{
+
+}
+.view-col img
+{
+  height:50px;
+  width: 50px;
+}
+/* .bottom_block
+{
+  color: white;
+} */
+#purchasebtn
+{
+  background: white;
+}
+.hero-area .hero-image img
+{
+  height: 500px!important;
+}
+.demo2
+{
+  margin:13px;
+  /* padding:56px; */
+  background-color:white;
+  border-radius: 11px;
+  border:1px solid gray;
+  width: 20% !important;
+  margin-left: 51px;
+  /* box-shadow: 2px 2px 10px 2px grey; */
+  height: 440px;
+  padding: 12px;
+  /* margin-left:100px; */
+}
+.demo2:hover
+{
+  box-shadow: 2px 2px 13px 2px grey;
+}
+.btn{
+  background-color: #081828 !important;
+  color: white !important;
+}
+.btn:hover
+{
+  background-color: #ff6b81 !important;
+  
+}
+.service-heading{
+  font-weight: bold;
+  padding-top: 2px;
+}
+#bt2{
+margin-left: 43%;
+}
+.header .navbar-brand img
+{
+  height: 100px!important;
+}
+#navbarSupportedContent
+{
+  color: white;
+}
+.nav-item
+{
+  padding-left: 24px;
+}
+.fog
+{
+  background-color: white !important;
+  color: #ff6b81 !important;
+}
+.fog:hover
+{
+  background-color: #081828 !important;
+  color: white !important;
+}
+.page-scroll
+{
+  text-decoration: none;
+  padding: 38px 0px !important;
+}
+.solutions li a{
+  color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.support li a{
+  color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.company li a{
+  color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.legal li a{
+  color: white;
+    padding: 5px;
+    text-decoration: none;
+}

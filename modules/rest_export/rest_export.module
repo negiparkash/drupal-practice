@@ -1,0 +1,49 @@
+<?php
+
+/**
+ * @file
+ * Contains hooks for the rest export module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function rest_export_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.rest_export':
+      $output = '';
+      $output .= t('<h3>About</h3>');
+      $output .= t('<p><div><strong>The Rest Export module provides features to export restful API list via</strong></div>:
+        <ul>
+          <li>Excel (*.xlsx, *.xls)</li>
+          <li>OpenDocument Spreadsheet (*.ods)</li>
+          <li>Comma-separated values (*.csv)</li>
+          <li>Tab-separated values (*.tsv)</li>
+        </ul></p>');
+
+      $output .= t('<h3>Configuration</h3>');
+      $output .= t('
+        <ul>
+          <li>Go to Administration > Configuration > Web Services > Rest Export</li>
+          <li>Setup your preferences before the export.</li>
+          <li>Save the form.</li>
+          <li><strong>Cheers !</strong></li>
+        </ul>
+      ');
+
+      $output .= t('<h3>Permission</h3>');
+      $output .= t('<div>The module come with only permission i.e. <strong>"Administer REST resource configuration"</strong>.</div>');
+
+      $output .= t('<h3>How to use</h3>');
+      $output .= t('<p>
+      <ul>
+        <li>Go to:
+       <strong>Administration << Configuration << Web services << Rest Export << Export REST Data</strong></li>
+       <li>Choose format, check filename and sheet title and click on download button.</li>
+       </ul></p>');
+
+      return $output;
+  }
+}

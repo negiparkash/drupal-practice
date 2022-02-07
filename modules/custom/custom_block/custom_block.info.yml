@@ -1,0 +1,6 @@
+name: custom-block
+type: module
+description: This is our custom block
+core_version_requirement: ^8 || ^9
+dependencies:
+  - block

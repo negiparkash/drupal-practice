@@ -1,0 +1,15 @@
+name: REST Export
+type: module
+description: "Provides features to export restful api via spreadsheet."
+package: Web services
+core_version_requirement: ^8.8 || ^9
+configure: rest_export.settings
+
+dependencies:
+  - drupal:file
+  - drupal:rest
+
+# Information added by Drupal.org packaging script on 2020-07-06
+version: '8.0.0'
+project: 'rest_export'
+datestamp: 1594014672
